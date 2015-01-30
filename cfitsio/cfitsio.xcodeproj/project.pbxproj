@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		22831BC01146D442004A1DD3 /* Build x86_64 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22831BC21146D442004A1DD3 /* Build configuration list for PBXAggregateTarget "Build x86_64" */;
+			buildPhases = (
+				22831BC11146D442004A1DD3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Build x86_64";
+			productName = "Build i386";
+		};
+		462A28420A4EEE5C00AB8766 /* Build PPC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 462A28430A4EEE5D00AB8766 /* Build configuration list for PBXAggregateTarget "Build PPC" */;
+			buildPhases = (
+				462A28460A4EEE6D00AB8766 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Build PPC";
+			productName = "Build PPC";
+		};
+		462A284B0A4EEF4000AB8766 /* Build i386 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 462A284F0A4EEF4C00AB8766 /* Build configuration list for PBXAggregateTarget "Build i386" */;
+			buildPhases = (
+				462A284C0A4EEF4B00AB8766 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Build i386";
+			productName = "Build i386";
+		};
+		462A28570A4EF04900AB8766 /* Build Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 462A285C0A4EF05400AB8766 /* Build configuration list for PBXAggregateTarget "Build Universal" */;
+			buildPhases = (
+				462A28580A4EF05100AB8766 /* ShellScript */,
+			);
+			dependencies = (
+				22831BD81146D7A2004A1DD3 /* PBXTargetDependency */,
+				22831BD61146D79F004A1DD3 /* PBXTargetDependency */,
+				22831BD41146D786004A1DD3 /* PBXTargetDependency */,
+			);
+			name = "Build Universal";
+			productName = "Build Universal";
+		};
+		753167D70CA3FAE400D04E91 /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 753167EA0CA3FB2500D04E91 /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				22831BDC1146D7C2004A1DD3 /* PBXTargetDependency */,
+				22831BDA1146D7BE004A1DD3 /* PBXTargetDependency */,
+				22831BCC1146D72F004A1DD3 /* PBXTargetDependency */,
+				753167DD0CA3FAED00D04E91 /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		22831BCB1146D72F004A1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22831BC01146D442004A1DD3 /* Build x86_64 */;
+			remoteInfo = "Build x86_64";
+		};
+		22831BD31146D786004A1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22831BC01146D442004A1DD3 /* Build x86_64 */;
+			remoteInfo = "Build x86_64";
+		};
+		22831BD51146D79F004A1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462A284B0A4EEF4000AB8766 /* Build i386 */;
+			remoteInfo = "Build i386";
+		};
+		22831BD71146D7A2004A1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462A28420A4EEE5C00AB8766 /* Build PPC */;
+			remoteInfo = "Build PPC";
+		};
+		22831BD91146D7BE004A1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462A284B0A4EEF4000AB8766 /* Build i386 */;
+			remoteInfo = "Build i386";
+		};
+		22831BDB1146D7C2004A1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462A28420A4EEE5C00AB8766 /* Build PPC */;
+			remoteInfo = "Build PPC";
+		};
+		753167DC0CA3FAED00D04E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462A28360A4EEE3200AB8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462A28570A4EF04900AB8766;
+			remoteInfo = "Build Universal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		22831BBD1146D2B6004A1DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462A28340A4EEE3200AB8766 = {
+			isa = PBXGroup;
+			children = (
+				22831BBD1146D2B6004A1DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		462A28360A4EEE3200AB8766 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 462A28370A4EEE3200AB8766 /* Build configuration list for PBXProject "cfitsio" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 462A28340A4EEE3200AB8766;
+			productRefGroup = 22831BBD1146D2B6004A1DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462A28420A4EEE5C00AB8766 /* Build PPC */,
+				462A284B0A4EEF4000AB8766 /* Build i386 */,
+				22831BC01146D442004A1DD3 /* Build x86_64 */,
+				462A28570A4EF04900AB8766 /* Build Universal */,
+				753167D70CA3FAE400D04E91 /* Build All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22831BC11146D442004A1DD3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nARCH_DIR=build/x86_64\nmake distclean\n./configure\nmake \"CFLAGS=-arch x86_64\"\nls *.a > libnames.tmp\nmkdir -p $ARCH_DIR\nmv *.a $ARCH_DIR\nexit 0";
+		};
+		462A28460A4EEE6D00AB8766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "
+";
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nARCH_DIR=build/ppc\nmake distclean\n./configure\nmake \"CFLAGS=-arch ppc\"\nls *.a > libnames.tmp\nmkdir -p $ARCH_DIR\nmv *.a $ARCH_DIR\nexit 0";
+		};
+		462A284C0A4EEF4B00AB8766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nARCH_DIR=build/i386\nmake distclean\n./configure\nmake \"CFLAGS=-arch i386\"\nls *.a > libnames.tmp\nmkdir -p $ARCH_DIR\nmv *.a $ARCH_DIR\nexit 0";
+		};
+		462A28580A4EF05100AB8766 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nfor lib in `cat libnames.tmp`; do\n lipo -create build/*/$lib -output $lib\ndone\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22831BCC1146D72F004A1DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22831BC01146D442004A1DD3 /* Build x86_64 */;
+			targetProxy = 22831BCB1146D72F004A1DD3 /* PBXContainerItemProxy */;
+		};
+		22831BD41146D786004A1DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22831BC01146D442004A1DD3 /* Build x86_64 */;
+			targetProxy = 22831BD31146D786004A1DD3 /* PBXContainerItemProxy */;
+		};
+		22831BD61146D79F004A1DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462A284B0A4EEF4000AB8766 /* Build i386 */;
+			targetProxy = 22831BD51146D79F004A1DD3 /* PBXContainerItemProxy */;
+		};
+		22831BD81146D7A2004A1DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462A28420A4EEE5C00AB8766 /* Build PPC */;
+			targetProxy = 22831BD71146D7A2004A1DD3 /* PBXContainerItemProxy */;
+		};
+		22831BDA1146D7BE004A1DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462A284B0A4EEF4000AB8766 /* Build i386 */;
+			targetProxy = 22831BD91146D7BE004A1DD3 /* PBXContainerItemProxy */;
+		};
+		22831BDC1146D7C2004A1DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462A28420A4EEE5C00AB8766 /* Build PPC */;
+			targetProxy = 22831BDB1146D7C2004A1DD3 /* PBXContainerItemProxy */;
+		};
+		753167DD0CA3FAED00D04E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462A28570A4EF04900AB8766 /* Build Universal */;
+			targetProxy = 753167DC0CA3FAED00D04E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22831BC31146D442004A1DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build i386";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		462A28390A4EEE3200AB8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		462A28450A4EEE5D00AB8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build PPC";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		462A28510A4EEF4C00AB8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build i386";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		462A285E0A4EF05400AB8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build Universal";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		753167EC0CA3FB2500D04E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22831BC21146D442004A1DD3 /* Build configuration list for PBXAggregateTarget "Build x86_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22831BC31146D442004A1DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462A28370A4EEE3200AB8766 /* Build configuration list for PBXProject "cfitsio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462A28390A4EEE3200AB8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462A28430A4EEE5D00AB8766 /* Build configuration list for PBXAggregateTarget "Build PPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462A28450A4EEE5D00AB8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462A284F0A4EEF4C00AB8766 /* Build configuration list for PBXAggregateTarget "Build i386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462A28510A4EEF4C00AB8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462A285C0A4EF05400AB8766 /* Build configuration list for PBXAggregateTarget "Build Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462A285E0A4EF05400AB8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753167EA0CA3FB2500D04E91 /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753167EC0CA3FB2500D04E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462A28360A4EEE3200AB8766 /* Project object */;
+}

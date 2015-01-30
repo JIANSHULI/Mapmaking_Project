@@ -1,0 +1,36 @@
+//Single point source test
+facetRA = 198.355
+facetDec = 31.5098
+
+//Cass A
+facetRA = 350.75
+facetDec = 58.8
+
+//Cyg A
+facetRA = 300
+facetDec = 40.75
+
+//Galactic Plane
+facetRA = 285.3833
+facetDec = 14.5833
+
+//Fornax A
+facetRA = 50.6737
+facetDec = -37.2083
+
+//Galactic Plane Intersection with HERA stripe
+facetRA = 266.2417
+facetDec = -30.706267
+
+polarization = xx
+frequency = 150.195
+frequency = 125.586
+frequency = 175.196
+
+//Omniscope
+arrayLat = 45.297769
+arrayLong = -69.987456
+
+visibilitiesFolder = ../GSM_Visibilities/Visibilties_for_
+baselinesFile = ../GSM_Visibilities/baselines_both_configs.dat
+baselinesFile = ../GSM_Visibilities/baselines.dat

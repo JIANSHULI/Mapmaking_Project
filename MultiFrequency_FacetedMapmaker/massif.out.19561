@@ -1,0 +1,1121 @@
+desc: (none)
+cmd: ./facetedMapmaker
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=14464587817
+mem_heap_B=345338466
+mem_heap_extra_B=1743646
+mem_stacks_B=0
+heap_tree=peak
+n8: 345338466 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288995040 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288995040 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288995040 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288993744 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 286643392 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277795008 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277795008 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277795008 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277795008 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277795008 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277795008 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277795008 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 1296 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n0: 3430216 in 1 place, below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 6297696 0x41C780: __gnu_cxx::new_allocator<cartVec>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 6297696 0x4199DD: std::_Vector_base<cartVec, std::allocator<cartVec> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 6297696 0x4157C3: std::vector<cartVec, std::allocator<cartVec> >::_M_insert_aux(__gnu_cxx::__normal_iterator<cartVec*, std::vector<cartVec, std::allocator<cartVec> > >, cartVec const&) (vector.tcc:322)
+    n2: 6297696 0x413AA8: std::vector<cartVec, std::allocator<cartVec> >::push_back(cartVec const&) (stl_vector.h:741)
+     n1: 6291456 0x40FD63: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1086)
+      n0: 6291456 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 6240 in 5 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1069842 in 9 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=2
+#-----------
+time=80558024216
+mem_heap_B=344681394
+mem_heap_extra_B=1739590
+mem_stacks_B=0
+heap_tree=detailed
+n8: 344681394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288337968 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288337968 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288337968 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288336672 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 285986320 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277137936 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277137936 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277137936 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277137936 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277137936 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277137936 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277137936 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 1296 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n0: 3430216 in 1 place, below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 6297696 0x41C780: __gnu_cxx::new_allocator<cartVec>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 6297696 0x4199DD: std::_Vector_base<cartVec, std::allocator<cartVec> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 6297696 0x4157C3: std::vector<cartVec, std::allocator<cartVec> >::_M_insert_aux(__gnu_cxx::__normal_iterator<cartVec*, std::vector<cartVec, std::allocator<cartVec> > >, cartVec const&) (vector.tcc:322)
+    n2: 6297696 0x413AA8: std::vector<cartVec, std::allocator<cartVec> >::push_back(cartVec const&) (stl_vector.h:741)
+     n1: 6291456 0x40FD63: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1086)
+      n0: 6291456 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 6240 in 5 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1069842 in 9 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=3
+#-----------
+time=139017023952
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=172065463421
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=212696163793
+mem_heap_B=335972274
+mem_heap_extra_B=1685830
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=238160488525
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=278790943743
+mem_heap_B=335921730
+mem_heap_extra_B=1685518
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=337302399903
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=377933982206
+mem_heap_B=335906178
+mem_heap_extra_B=1685422
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=436445050030
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=477075001422
+mem_heap_B=335846562
+mem_heap_extra_B=1685054
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=502539193894
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=543168919287
+mem_heap_B=335810274
+mem_heap_extra_B=1684830
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=601679414404
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=639953596294
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=684294109926
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=733863900630
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=783435221184
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=833004227022
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=866050807758
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=915619167539
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=948665713769
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=998234521394
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1036508938398
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1069553537868
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1113892961946
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1146937568413
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1196504930703
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1229550558488
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1295639870055
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=detailed
+n7: 339045714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288993744 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288993744 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288993744 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288993744 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 286643392 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277795008 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277795008 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277795008 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277795008 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277795008 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277795008 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277795008 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n1: 3430216 0x41421E: std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (stl_vector.h:229)
+     n0: 3430216 in 4 places, all below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1076082 in 10 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=31
+#-----------
+time=1361731859985
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1427823058197
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1477390356748
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1510435197954
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1560001822369
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1609569496082
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1675660068542
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1741749572072
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1791316204639
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=detailed
+n7: 339045714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288993744 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288993744 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288993744 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288993744 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 286643392 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277795008 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277795008 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277795008 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277795008 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277795008 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277795008 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277795008 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n1: 3430216 0x41421E: std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (stl_vector.h:229)
+     n0: 3430216 in 4 places, all below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1076082 in 10 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=40
+#-----------
+time=1840883807336
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1906976949374
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1945251277234
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1997182978956
+mem_heap_B=337234578
+mem_heap_extra_B=1693622
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2027864203484
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2072202852418
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2138291895677
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2193088030627
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2245021427145
+mem_heap_B=337311042
+mem_heap_extra_B=1694094
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2275701420389
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2286995627324
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=detailed
+n7: 339045714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288993744 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288993744 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288993744 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288993744 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 286643392 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277795008 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277795008 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277795008 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277795008 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277795008 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277795008 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277795008 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n1: 3430216 0x41421E: std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (stl_vector.h:229)
+     n0: 3430216 in 4 places, all below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1076082 in 10 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=51
+#-----------
+time=2292224433064
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2303519785547
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2308748591287
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2320043054144
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2325271859884
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2336565878729
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2341794684469
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2353088613653
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2358317419393
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=2369611836888
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=detailed
+n7: 339045714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288993744 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288993744 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288993744 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288993744 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 286643392 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277795008 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277795008 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277795008 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277795008 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277795008 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277795008 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277795008 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n1: 3430216 0x41421E: std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (stl_vector.h:229)
+     n0: 3430216 in 4 places, all below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1076082 in 10 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=61
+#-----------
+time=2374840642628
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2386135124542
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2391363930282
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2402657993415
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=2407886799155
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=2419180797353
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=2424409603093
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=2435703881191
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=2440932686931
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=2452226557577
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=detailed
+n7: 339045714 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 288993744 0x41CB57: __gnu_cxx::new_allocator<complex>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 288993744 0x41A23D: std::_Vector_base<complex, std::allocator<complex> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 288993744 0x4194DD: std::_Vector_base<complex, std::allocator<complex> >::_Vector_base(unsigned long, std::allocator<complex> const&) (stl_vector.h:113)
+    n2: 288993744 0x41534D: std::vector<complex, std::allocator<complex> >::vector(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:242)
+     n2: 286643392 0x41E4C3: void std::_Construct<std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > const&) (stl_construct.h:80)
+      n1: 277795008 0x41EF6C: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:186)
+       n1: 277795008 0x41E084: void std::uninitialized_fill_n<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_uninitialized.h:222)
+        n1: 277795008 0x41C5E6: void std::__uninitialized_fill_n_a<std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> >, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:317)
+         n1: 277795008 0x41971E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_fill_initialize(unsigned long, std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:1035)
+          n1: 277795008 0x4154F9: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:230)
+           n1: 277795008 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+            n0: 277795008 0x411DAD: main (facetedMapmaker.cpp:1297)
+      n1: 8848384 0x41F3BE: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy<false>::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:74)
+       n1: 8848384 0x41E46D: std::vector<complex, std::allocator<complex> >* std::uninitialized_copy<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*>(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*) (stl_uninitialized.h:116)
+        n1: 8848384 0x41CE15: std::vector<complex, std::allocator<complex> >* std::__uninitialized_copy_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:256)
+         n1: 8848384 0x41A720: std::vector<complex, std::allocator<complex> >* std::__uninitialized_move_a<std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > > >(std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::vector<complex, std::allocator<complex> >*, std::allocator<std::vector<complex, std::allocator<complex> > >&) (stl_uninitialized.h:266)
+          n1: 8848384 0x416814: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<complex, std::allocator<complex> >*, std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > > >, std::vector<complex, std::allocator<complex> > const&) (vector.tcc:338)
+           n1: 8848384 0x413E2E: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::push_back(std::vector<complex, std::allocator<complex> > const&) (stl_vector.h:741)
+            n1: 8848384 0x40958A: loadVisibilities(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&) (facetedMapmaker.cpp:373)
+             n0: 8848384 0x4116D0: main (facetedMapmaker.cpp:1249)
+     n0: 2350352 in 1 place, below massif's threshold (01.00%)
+    n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 25165824 0x41BD8F: normalAlloc__<bool>::alloc(unsigned long) const (alloc_utils.h:41)
+  n1: 25165824 0x41BD4B: arrT<bool, normalAlloc__<bool> >::arrT(unsigned long) (arr.h:190)
+   n1: 25165824 0x4188E3: arr<bool>::arr(unsigned long) (arr.h:307)
+    n1: 25165824 0x414DE6: Healpix_Map<bool>::Healpix_Map(int, Healpix_Ordering_Scheme) (healpix_map.h:53)
+     n2: 25165824 0x40B57B: isInFacet(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:616)
+      n0: 12582912 0x41197B: main (facetedMapmaker.cpp:1263)
+      n0: 12582912 0x411A6F: main (facetedMapmaker.cpp:1269)
+ n1: 9225456 0x41CA31: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 9225456 0x419FCF: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n2: 9094384 0x4172AD: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:113)
+    n2: 5664168 0x415407: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:242)
+     n1: 5664168 0x41E60E: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:80)
+      n1: 5664168 0x41E556: void std::__uninitialized_fill_n<false>::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:186)
+       n1: 5664168 0x41CF39: void std::uninitialized_fill_n<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&) (stl_uninitialized.h:222)
+        n1: 5664168 0x41A8FB: void std::__uninitialized_fill_n_a<std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >(std::vector<double, std::allocator<double> >*, unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:317)
+         n1: 5664168 0x416DC4: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_fill_initialize(unsigned long, std::vector<double, std::allocator<double> > const&) (stl_vector.h:1035)
+          n2: 5664168 0x413FE7: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(unsigned long, std::vector<double, std::allocator<double> > const&, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:230)
+           n1: 5599368 0x40973E: loadNoiseVarianceOnEachVisibiltiy(std::vector<cartVec, std::allocator<cartVec> >&, std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >) (facetedMapmaker.cpp:383)
+            n0: 5599368 0x411710: main (facetedMapmaker.cpp:1250)
+           n0: 64800 in 1 place, below massif's threshold (01.00%)
+     n0: 0 in 1 place, below massif's threshold (01.00%)
+    n1: 3430216 0x41421E: std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (stl_vector.h:229)
+     n0: 3430216 in 4 places, all below massif's threshold (01.00%)
+   n0: 131072 in 2 places, all below massif's threshold (01.00%)
+ n1: 5147424 0x41CDE4: __gnu_cxx::new_allocator<std::vector<complex, std::allocator<complex> > >::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n2: 5147424 0x41A6E3: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 5144352 0x416A4D: std::_Vector_base<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::_Vector_base(unsigned long, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:113)
+    n1: 5144352 0x4154E2: std::vector<std::vector<complex, std::allocator<complex> >, std::allocator<std::vector<complex, std::allocator<complex> > > >::vector(unsigned long, std::vector<complex, std::allocator<complex> > const&, std::allocator<std::vector<complex, std::allocator<complex> > > const&) (stl_vector.h:229)
+     n1: 5144352 0x40FE41: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1091)
+      n0: 5144352 0x411DAD: main (facetedMapmaker.cpp:1297)
+   n0: 3072 in 1 place, below massif's threshold (01.00%)
+ n1: 4718592 0x41D095: __gnu_cxx::new_allocator<horizPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41AB9F: std::_Vector_base<horizPoint, std::allocator<horizPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x417063: std::vector<horizPoint, std::allocator<horizPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<horizPoint*, std::vector<horizPoint, std::allocator<horizPoint> > >, horizPoint const&) (vector.tcc:322)
+    n2: 4718592 0x4141EA: std::vector<horizPoint, std::allocator<horizPoint> >::push_back(horizPoint const&) (stl_vector.h:741)
+     n1: 4194304 0x40FD1D: calculateKAtranspose(double, std::vector<equaPoint, std::allocator<equaPoint> >&, std::vector<cartVec, std::allocator<cartVec> >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&) (facetedMapmaker.cpp:1085)
+      n0: 4194304 0x411DAD: main (facetedMapmaker.cpp:1297)
+     n0: 524288 in 2 places, all below massif's threshold (01.00%)
+ n1: 4718592 0x41DBBB: __gnu_cxx::new_allocator<equaPoint>::allocate(unsigned long, void const*) (new_allocator.h:89)
+  n1: 4718592 0x41BC9B: std::_Vector_base<equaPoint, std::allocator<equaPoint> >::_M_allocate(unsigned long) (stl_vector.h:140)
+   n1: 4718592 0x4186B3: std::vector<equaPoint, std::allocator<equaPoint> >::_M_insert_aux(__gnu_cxx::__normal_iterator<equaPoint*, std::vector<equaPoint, std::allocator<equaPoint> > >, equaPoint const&) (vector.tcc:322)
+    n1: 4718592 0x414DA2: std::vector<equaPoint, std::allocator<equaPoint> >::push_back(equaPoint const&) (stl_vector.h:741)
+     n2: 4718592 0x40B496: computeEquaPointings(std::vector<int, std::allocator<int> >&) (facetedMapmaker.cpp:608)
+      n0: 4194304 0x411A56: main (facetedMapmaker.cpp:1268)
+      n0: 524288 in 1 place, below massif's threshold (01.00%)
+ n0: 1076082 in 10 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=71
+#-----------
+time=2457455363317
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=2468749390120
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=2473978195860
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=2485272117200
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=2490500922940
+mem_heap_B=333135330
+mem_heap_extra_B=1735542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=2501795086747
+mem_heap_B=339045714
+mem_heap_extra_B=1739598
+mem_stacks_B=0
+heap_tree=empty

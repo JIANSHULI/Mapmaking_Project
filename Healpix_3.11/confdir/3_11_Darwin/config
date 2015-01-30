@@ -1,0 +1,7 @@
+# configuration for Healpix 3.11
+HEALPIX=/Users/jsdillon/Desktop/Joint_Mapmaking_Power_Spectrum_Pipeline/Healpix_3.11 ; export HEALPIX 
+HPX_CONF_DIR=/Users/jsdillon/Desktop/Joint_Mapmaking_Power_Spectrum_Pipeline/Healpix_3.11/confdir/3_11_Darwin
+if [ -r ${HPX_CONF_DIR}/idl.sh ] ; then . ${HPX_CONF_DIR}/idl.sh ; fi
+if [ -r ${HPX_CONF_DIR}/f90.sh ] ; then . ${HPX_CONF_DIR}/f90.sh ; fi
+if [ -r ${HPX_CONF_DIR}/cpp.sh ] ; then . ${HPX_CONF_DIR}/cpp.sh ; fi
+if [ -r ${HPX_CONF_DIR}/c.sh ] ;   then . ${HPX_CONF_DIR}/c.sh ;   fi

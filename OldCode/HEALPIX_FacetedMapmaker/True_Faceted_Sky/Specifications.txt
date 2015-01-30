@@ -1,0 +1,11 @@
+FITS_directory
+../VisibilitySimulator/FITS_GSM/
+
+GSMformat1
+gsm
+
+GSMformat2
+.fits
+
+GSMres
+512
